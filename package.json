@@ -1,0 +1,28 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": "https://github.com/tajpouria/UnderStanding-TypeScript.git",
+  "author": "tajpouria <charliswager@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

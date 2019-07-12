@@ -265,6 +265,7 @@ function mapAnArray<T>(args: T[]){
 }
 
 mapAnArray<string>(['Hello', 'World'])
+
 // generic classes 
 class SimpleMath <T extends number | string, U extends string> {
   baseValue : T
